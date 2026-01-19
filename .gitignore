@@ -2,6 +2,10 @@
 /shelf/
 /workspace.xml
 
-# Ignored files and folders
+# IntelliJ
 .github/
 .idea/
+*.iml
+
+# build output
+out/
