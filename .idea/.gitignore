@@ -3,5 +3,6 @@
 /workspace.xml
 
 # Ignored files and folders
-.github/
-.idea/
+.github/*
+.idea/*
+out/
