@@ -9,3 +9,6 @@
 
 # build output
 out/
+
+# my ignored files
+src/TestCases.java
