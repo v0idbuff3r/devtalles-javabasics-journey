@@ -1,4 +1,4 @@
-package s03languagefundamentals.lessons;
+package s03languagefundamentals.s03lessons;
 
 public class ConstansPractice {
     public static void main(String[] args) {

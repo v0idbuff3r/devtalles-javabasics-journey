@@ -1,4 +1,4 @@
-package s03languagefundamentals.lessons;
+package s03languagefundamentals.s03lessons.loops;
 
 public class Bucle {
     public static void main(String[] args) {

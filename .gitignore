@@ -6,9 +6,12 @@
 .github/
 .idea/
 *.iml
+src/TestCases.java
 
 # build output
 out/
 
 # my ignored files
 src/TestCases.java
+**/*.class
+
