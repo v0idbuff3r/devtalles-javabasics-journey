@@ -5,7 +5,6 @@
 # IntelliJ
 .idea/
 *.iml
-src/TestCases.java
 
 # build output
 out/
