@@ -1,4 +1,4 @@
-package s03languagefundamentals.sectionproject;
+package s03languagefundamentals.s03sectionproject.medavid;
 
 import java.util.Scanner;
 

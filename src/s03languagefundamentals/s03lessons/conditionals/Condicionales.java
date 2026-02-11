@@ -1,4 +1,4 @@
-package s03languagefundamentals.lessons;
+package s03languagefundamentals.s03lessons.conditionals;
 
 public class Condicionales {
     public static void main(String[] args) {

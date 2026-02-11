@@ -1,4 +1,4 @@
-package s03languagefundamentals.lessons;
+package s03languagefundamentals.s03lessons.scannerexample.medavid;
 
 import java.util.Scanner;
 

@@ -3,7 +3,6 @@
 /workspace.xml
 
 # IntelliJ
-.github/
 .idea/
 *.iml
 
@@ -12,3 +11,5 @@ out/
 
 # my ignored files
 src/TestCases.java
+**/*.class
+
