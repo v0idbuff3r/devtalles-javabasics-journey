@@ -1,9 +1,11 @@
 package s04classesandobjects.s04sectionproject.medavid;
 
+import s04classesandobjects.s04sectionproject.refgabrielchaldu.BankApp;
 import utilities.ConsoleStyle;
 
 import java.util.Scanner;
 
+//TODO: Extraer toda la lógica de la app en una clase intermedia, hacer el main más limpio.
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -71,6 +73,13 @@ public class Main {
        boolean withdrawSucceeded = bankAccount.withdraw(readAmount(ConsoleStyle.getBrightMagenta("Ingrese el monto a retirar de su cuenta: "), sc));
        if (!withdrawSucceeded) {
            System.out.println(ConsoleStyle.error("Saldo insuficiente, compruebe el monto disponible en su cuenta!"));
+       }
+    }
+
+    public static void tryDeposit(BankAccount bankAccount, Scanner sc) {
+        boolean depositSucceeded = bankAccount.deposit(readAmount(ConsoleStyle.getBrightMagenta("Ingrese el monto a depositar: "), sc));
+       if(!depositSucceeded) {
+           System.out.println(ConsoleStyle.warn("Monto a depositar incorrecto, el monto tiene que ser mayor a 0!"));
        }
     }
 }
