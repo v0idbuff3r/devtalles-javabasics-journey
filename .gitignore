@@ -3,7 +3,6 @@
 /workspace.xml
 
 # IntelliJ
-.github/
 .idea/
 *.iml
 src/TestCases.java
