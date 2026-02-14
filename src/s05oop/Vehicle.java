@@ -1,5 +1,7 @@
 package s05oop;
 
+import utilities.ConsoleStyle;
+
 public class Vehicle {
     private String brand;
     private String model;
@@ -9,6 +11,10 @@ public class Vehicle {
         this.brand = brand;
         this.model = model;
         this.year = year;
+    }
+
+    public void stop() {
+        System.out.println(ConsoleStyle.getBrightGreen("El vehículo está parado."));
     }
 
     public String getBrand() {
@@ -40,9 +46,9 @@ public class Vehicle {
     }
 
     public String toString() {
-        return "VEHICLE: \n" +
-                "\tbrand: " + brand + "\n" +
-                "\tmodel: " + model + "\n" +
-                "\tyear: " + year;
+        return ConsoleStyle.getBrightGreen("VEHICLE: \n") +
+                ConsoleStyle.getBrightCyan("\tbrand: ") + brand + "\n" +
+                ConsoleStyle.getBrightCyan("\tmodel: ") + model + "\n" +
+                ConsoleStyle.getBrightCyan("\tyear: ") + year;
     }
 }
